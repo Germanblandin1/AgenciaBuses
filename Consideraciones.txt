@@ -1,0 +1,1 @@
+En el momento de agregar algun Viaje o alguna Asignacion (que dependen de otros modelos) se debe recargar la pagina para que estos objetos aparezcan en los select.

@@ -8,7 +8,7 @@ Para ejecutar el proyecto es necesario hacer lo siguiente:
     https://www.python.org/downloads/
 
     -Primero nos ubicamos en la carpeta del proyecto (donde veamos el archivo manage.py) en este caso en la carpeta:
-        AgenciaDeBuses
+        AgenciaBuses/AgenciaDeBuses
     -Instalamos las dependencias con el comando:
         pip install -r requirements.txt
     -Migramos e Inicializamos la base de datos
@@ -26,8 +26,12 @@ Para ejecutar el proyecto es necesario hacer lo siguiente:
     -Para ejecutar el front necesitamos instalar la version recomendada de Node.js. En este caso
      La version 10.15.0 y npm 6.4.1 (viene con la instalacion de node.js)
         https://nodejs.org/es/
-    -Nos ubicamos en la carpeta AgenciaFront/AgenciaFront, checamos que exista los archivos package y package-lock
+    -Nos ubicamos en la carpeta 
+        AgenciaBuses/AgenciaFront/AgenciaFront 
+    - checamos que exista los archivos package y package-lock
     -Ejecutamos el comando
+        npm install
+    -Si este comando ejecuta algun error borramos la carpeta node_modules y el archivo package-lock y volvemos a ejecutar
         npm install
     - Una vez terminado ejecutamos el servidor
         npm run start

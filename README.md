@@ -4,9 +4,8 @@ Para ejecutar el proyecto es necesario hacer lo siguiente:
     git clone https://github.com/Germanblandin1/AgenciaBuses.git
 
 2) Instalar y Arrancar el Backend
-    -Primero debemos instalar la version mas reciente de python 3 y pip (por lo general ya viene con python 3)
-        En este caso se uso Python 3.7.2 y pip 18.1 
-        https://www.python.org/downloads/
+    -Primero debemos instalar la version mas reciente de python 3 y pip (por lo general ya viene con python 3) En este caso se uso Python 3.7.2 y pip 18.1 
+    https://www.python.org/downloads/
 
     -Primero nos ubicamos en la carpeta del proyecto (donde veamos el archivo manage.py) en este caso en la carpeta:
         AgenciaDeBuses

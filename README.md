@@ -39,4 +39,8 @@ Para ejecutar el proyecto es necesario hacer lo siguiente:
         http://localhost:8080/
     - En este punto ya deberiamos ser capaces de visualizar la apliacion.
 
+Acerca del Proyecto
+
+la interfaz consta de una sola pagina donde se puede ejecutar el crud de todos los modelos creados
+ademas de las funciones solicitadas.
 

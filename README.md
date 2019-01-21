@@ -40,21 +40,37 @@ Para ejecutar el proyecto es necesario hacer lo siguiente:
 3) Instalar y Arrancar el Frontend
     -Para ejecutar el front necesitamos instalar la version recomendada de Node.js. En este caso
      La version 10.15.0 y npm 6.4.1 (viene con la instalacion de node.js)
+     
         https://nodejs.org/es/
+        
     -Nos ubicamos en la carpeta 
+    
         AgenciaBuses/AgenciaFront/AgenciaFront 
+        
     - checamos que exista los archivos package y package-lock
+    
     -Ejecutamos el comando
+    
         npm install
+        
     -Si este comando ejecuta algun error borramos la carpeta node_modules y el archivo package-lock y volvemos a ejecutar
+    
         npm install
+        
     - Una vez terminado ejecutamos el servidor
+    
         npm run start
+        
     - El servidor quedara ejecutandose en 
+    
         http://localhost:8080/
+        
     -Si queda en una direccion distinta usar la que se indique
+    
     -Vamos al navegador y colocamos nuestro url:
+    
         http://localhost:8080/
+        
     - En este punto ya deberiamos ser capaces de visualizar la apliacion.
 
 Acerca del Proyecto

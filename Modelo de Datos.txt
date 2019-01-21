@@ -1,0 +1,25 @@
+Se realizo un modelo relacional para representar el problema de la agencia de buses.
+El cual es el siguiente:
+
+Pasajero(id PK,nombre)
+Chofer(id PK,nombre)
+Bus(id PK, nombre)
+Trayecto(id PK,origen,destino)
+Horario(id PK,dia,hora,minuto)
+Viaje(id PK,trayecto FK,horario FK,bus FK,chofer FK)
+Asignacion(id PK,viaje FK,pasajero FK,npuesto)
+
+PK-primary_key
+FK-foreign-key
+
+-Con la tabla viaje, se puede representar cada viaje que se realice en la agencia
+permitiendo asignar un trayecto, a un horario especifico, con un chofer y bus.
+-Cabe destacar que un chofer o bus no pueden estar en el mismo trayecto a la misma hora
+-Para los pasajes se usa asignacion la cual dependiendo del viaje se le asignan pasajeros y un numero de puesto
+-un puesto no se le puede asignar a mas de un pasajero y solo puede haber maximo 10 asignaciones a un mismo viaje
+
+Puntos de mejora:
+-La cantidad de pasajeros en un bus, deberia ser un campo en BUS, para que asi siempre se compare con este campo y no este cableado
+Esto se me ocurrio algo tarde pues lo comence asumiento el numero constante, pero es mucho mas interesante colocarlo variable en bus.
+- El horario podria ser una mejor tabla asignando los tipos de datos correctamente como datos de fechas y hora por ejemplo.
+

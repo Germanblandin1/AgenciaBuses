@@ -1,0 +1,12 @@
+Para el backend
+-Seria interesante separar el archivo de views.py en mas archivos segun los recursos o modelos.
+ Ya que, aunque el codigo no sea tan extenso, a mediano y largo plazo, tener todo en un solo archivo
+ es bastante dificil de mantener.
+
+-Organizar mejor, algunos aspectos del codigo, por ejemplo los mensajes que arroja el api,
+ Seria interesante colocar algun servicio que se encargue de proporcionar todos los mensajes
+ Asi al momento de usarlos los sacamos de alli, y si queremos cambiar dichos mensaje los tenemos en un solo archivo
+
+-Seria interesante realizar un diseño basado en servicios, es decir las views, serian solo para recibir y en enviar respuestas
+ Cualquier clase de logica que conlleve realizar para extraer dichas respuestas se realiza en un servicio aparte
+ Asi el views solo se usa para request y response.

@@ -1,0 +1,6 @@
+-En el front se debe utilizar de mejor manera los componentes para reutilizar mas codigo.
+Hay mucho codigo repetido como los modales.
+-Para evitar redundar codigo, es recomendable crear una carpeta llamada Servicios
+ Y colocar en dicha carpeta en archivos independientes segun el recurso, todas las llamadas al API.
+ Con esto nuevamente evitamos redundar mas codigo.
+-Mantener el orden en general.
